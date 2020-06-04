@@ -1,4 +1,10 @@
 @media (max-width: 900px){
+  #page-search-results .cards{
+    grid-template-columns: 1fr;
+  }
+  #page-search-results img{
+    height: 250px;
+  }
   #page-home{
     background-position-x: 70vw;
   }

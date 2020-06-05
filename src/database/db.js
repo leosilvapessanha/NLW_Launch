@@ -51,19 +51,19 @@ db.serialize(() => {
 //   db.run(query, values, afterInsertData)
 //   })
 
-//   db.all(` SELECT * FROM places`, function (err, rows) {
-//     if (err) {
-//       return console.log(err)
-//     }
-//     console.log("registros")
-//     console.log(rows)
-//   })
-//   db.run(`DELETE FROM places WHERE id = ?`, [3], function (err) {
-//     if (err) {
-//       return console.log(err)
-//     }
+  // db.all(` SELECT * FROM places`, function (err, rows) {
+  //   if (err) {
+  //     return console.log(err)
+  //   }
+  //   console.log("registros")
+  //   console.log(rows)
+  // })
+  // db.run(`DELETE FROM places WHERE id = ?`, [4], function (err) {
+  //   if (err) {
+  //     return console.log(err)
+  //   }
 
-//     console.log("Registro deletado com sucesso!")
+  //   console.log("Registro deletado com sucesso!")
 
-//   })
+  // })
   })

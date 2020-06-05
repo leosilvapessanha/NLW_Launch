@@ -50,6 +50,13 @@ form legend h2{
   font-size: 24px;
 }
 
+formlegend span{
+  color: var(--title-color);
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 form .field{
   flex: 1;
   display:flex;
